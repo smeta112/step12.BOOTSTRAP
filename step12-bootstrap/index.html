@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo | Знакомимся с Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">ЕКО-11824</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Ссылка</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Выпадающий список
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Действие</a></li>
+                      <li><a class="dropdown-item" href="#">Другое действие</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link disabled">Включенная</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+        <h1>Hello, world!</h1>
+        <div class="row">
+
+            <p class="col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore expedita aliquid incidunt porro ipsa reiciendis dignissimos accusantium sint quas pariatur maiores recusandae impedit, ea itaque et nobis odit reprehenderit voluptatem quibusdam veniam architecto inventore eius?</p>
+            <p class="col-md-3">Impedit, blanditiis ducimus. Quam, iusto voluptas officia est mollitia ab reprehenderit delectus vero repellendus nobis ipsa aliquam aspernatur voluptatem voluptatum, atque amet nisi! Repellendus sunt vero exercitationem repudiandae sit quibusdam amet rem aperiam nesciunt obcaecati.</p>
+            <p class="col-md-3">Tenetur nisi quam, voluptate nulla totam ex deserunt adipisci id sed corporis maxime eum dicta architecto nemo labore rerum, in aliquid rem vero inventore, commodi reiciendis suscipit? Quisquam laborum eaque, ipsam enim odio obcaecati nam.</p>
+        </div>
+        <div class="accordion mb-5" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Элемент аккордеона #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Это тело аккордеона первого элемента.</strong> Оно отображается по умолчанию, пока плагин свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в <code>.accordion-body</code>, хотя переход ограничивает переполнение.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Элемент аккордеона #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Это тело аккордеона второго элемента.</strong> По умолчанию он скрыт, пока плагин свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в <code>.accordion-body</code>, хотя переход ограничивает переполнение.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Элемент аккордеона #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>Это тело аккордеона третьего элемента.</strong> По умолчанию оно скрыто, пока плагин свертывания не добавит соответствующие классы, которые мы используем для стилизации каждого элемента. Эти классы управляют общим внешним видом, а также отображением и скрытием с помощью переходов CSS. Вы можете изменить все это с помощью собственного CSS или переопределить наши переменные по умолчанию. Также стоит отметить, что практически любой HTML может быть помещен в <code>.accordion-body</code>, хотя переход ограничивает переполнение.
+                </div>
+              </div>
+            </div>
+        </div>
+        <p class="alert alert-primary" role="alert">Reprehenderit iure provident minus eum, cumque illo, aperiam saepe molestias iusto doloribus odio modi ex recusandae atque. Saepe sequi ut quo magni provident earum dolor possimus excepturi corporis error. Veritatis repellendus dicta voluptate? Quidem, natus?</p>
+        <div class="row">
+            <a href="#" type="button" class="btn btn-outline-warning m-5 col-5 mx-auto">Warning</a>
+        </div>
+        <p>Ducimus eius eum suscipit eos facilis laboriosam vel excepturi repudiandae beatae, dolores non, doloribus explicabo iure nam labore voluptatibus consequuntur dicta rem! Alias reiciendis quisquam, aut adipisci itaque, suscipit veniam voluptatem deserunt, fuga magni qui?</p>
+        <p>Corporis tempore dolores doloremque numquam quae similique tenetur rerum sequi eaque! Quibusdam ipsa, rerum quam, distinctio ad eaque aut, voluptas commodi sunt laudantium vitae praesentium molestiae nemo dignissimos. Beatae totam accusantium aliquid velit quo aut.</p>
+        <div class="row justify-content-center m-5">
+            <div class="card m-2 p-0" style="width: 18rem;">
+                <img src="https://fakeimg.pl/250x100/" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Заголовок карточки</h5>
+                  <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+                  <a href="#" class="btn btn-outline-warning">Перейти куда-нибудь</a>
+                </div>
+            </div>
+            <div class="card m-2 p-0" style="width: 18rem;">
+                <img src="https://fakeimg.pl/250x100/" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Заголовок карточки</h5>
+                  <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+                  <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+                </div>
+            </div>
+            <div class="card m-2 p-0" style="width: 18rem;">
+                <img src="https://fakeimg.pl/250x100/" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Заголовок карточки</h5>
+                  <p class="card-text">Небольшой пример текста, который должен основываться на названии карточки и составлять основную часть содержимого карты.</p>
+                  <a href="#" class="btn btn-primary">Перейти куда-нибудь</a>
+                </div>
+            </div>
+        </div>
+        <p>Aliquid odit necessitatibus cupiditate voluptatibus dolorum ratione nesciunt culpa, beatae non distinctio nihil pariatur! Voluptatem ratione optio non, eaque aperiam quas omnis eum veritatis nostrum atque, fugit deserunt et cum minus! Possimus quia repellendus amet.</p>
+        <p>Voluptatibus voluptate quod a aspernatur suscipit odit saepe laboriosam in natus repellat, minima ut eius delectus laborum itaque illum nobis accusantium quis. Sint culpa fugit pariatur, modi perspiciatis accusamus unde totam ab quos assumenda optio!</p>
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://fakeimg.pl/1250x600/ff0000/" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://fakeimg.pl/1250x600/00ff00/" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://fakeimg.pl/1250x600/0000ff/" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://fakeimg.pl/1250x600/0f0f0f/" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Следующий</span>
+            </button>
+          </div>
+        <p>Dolore rerum sunt ducimus quibusdam tempore fugit dolorum! Aliquam pariatur aperiam exercitationem dolor distinctio quae debitis, similique in sit ea corporis architecto fugiat sed. Dolor eum asperiores illum ut, ea quos saepe suscipit maxime sint?</p>
+        <p>Blanditiis ducimus molestiae mollitia adipisci deleniti iusto corporis laborum officiis harum, nemo amet atque a rem cupiditate saepe quis magnam veniam commodi? Quos harum ipsa nulla. Ea porro iste nesciunt quibusdam, sequi incidunt consequuntur delectus.</p>
+        <div class="row">
+            <!-- Кнопка-триггер модального окна -->
+            <button type="button" class="btn btn-primary col-5 mx-auto m-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Запустите демо модального окна
+            </button>
+  
+  <!-- Модальное окно -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Заголовок модального окна</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+            ...
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+            
+            </div>
+        </div>
+        </div>
+  </div>
+        </div>
+        <p>Aut amet ab necessitatibus incidunt mollitia, dolores nam molestiae fugiat quasi. Amet repellat velit voluptates, itaque porro eveniet aliquam natus rem, delectus magnam eaque neque ipsum sunt saepe tenetur. Ea ipsum deserunt eligendi dolores laborum!</p>
+        <p>Quo tempore fugiat tenetur praesentium placeat eius dolores suscipit illum cumque hic! Temporibus odit deleniti dolor tempore laudantium! Voluptate, soluta optio sit voluptatum commodi odit quo possimus, repellat distinctio veritatis enim, numquam repudiandae neque placeat.</p>
+        <p>Quaerat deleniti nisi ad aliquam minima! Labore harum tempora aspernatur, laboriosam sequi laborum at ab ex est amet illo repellat eaque earum nobis qui neque error ipsum odit corrupti ad perspiciatis deserunt. Vitae, magni eaque?</p>
+        <p>Odio ad, maxime suscipit aliquid iure assumenda repudiandae rem! Voluptate possimus, amet accusamus exercitationem velit ullam repellat error laboriosam laborum vero ducimus esse voluptas cum unde earum accusantium omnis distinctio asperiores quia? Saepe, mollitia? Quasi.</p>
+        <p>Ipsam, sed quaerat. Reiciendis qui, cum quidem ex est iusto nihil illo labore vel error debitis voluptate. Velit quis dolor repellendus deleniti corporis beatae rerum iste eos mollitia fugiat soluta quisquam, omnis eum. Eos, modi!</p>
+        <p>Officiis assumenda minima aperiam rem, commodi culpa dignissimos porro consequatur placeat harum id est. Adipisci quisquam enim, sit odio eos facere, sequi corrupti nemo voluptas sint labore. Sequi ipsam repellendus tempore eum ut voluptatum corporis!</p>
+        <p>Modi cumque inventore ab suscipit porro unde earum. Aut quas at dolore quae quis minus, possimus voluptatum unde dolores officiis enim ipsa mollitia, ipsam soluta omnis cupiditate vitae sunt corrupti. Labore aut ut quasi similique?</p>
+        <p>Incidunt, sunt. Voluptatum quam magni ab natus iusto illum, quo repudiandae doloribus quis aut cumque deserunt illo reiciendis, assumenda beatae incidunt praesentium! Repudiandae velit dolore excepturi autem est, adipisci quo. Nesciunt placeat incidunt rem cumque?</p>
+        <p>Voluptas nostrum quod nesciunt earum dolor unde, non neque necessitatibus. Consequatur, quidem. Deserunt quidem, natus id itaque iusto consequuntur laborum qui reprehenderit cum aut nihil magni quas, maxime praesentium saepe numquam et accusamus ea illo?</p>
+        <p>Commodi corporis et neque, officiis harum, mollitia sed nostrum quos assumenda excepturi fugit nisi iusto eveniet? Commodi ipsa esse obcaecati dolorum dolore, doloremque porro iste accusantium expedita exercitationem cum voluptates aliquid similique? Inventore, laborum dignissimos!</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
